@@ -30,7 +30,7 @@ public class TestTT2203 {
     }
     @Test
     public void test5() throws Exception {
-        assertEquals( 1,tt2203.comparison("♣8", "♥8"));
+        assertEquals( 0,tt2203.comparison("♣8", "♥8"));
     }
 
 }
